@@ -1,0 +1,46 @@
+.container {
+  border-right: 1px solid #e6ecf3;
+}
+
+.container div {
+  padding: 1.5rem 1rem 0;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+
+.select {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  outline-color: #17a2b8;
+}
+
+.channels {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.channels li {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f4f8;
+}
+
+.channels li:hover {
+  background-color: #ffffff;
+}

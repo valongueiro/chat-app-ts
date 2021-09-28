@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex: 1;
+  gap: 0.8rem;
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+}
+
+.left {
+  flex-direction: row;
+}
+
+.right {
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.2rem;
+}
+
+.name {
+  color: #999999;
+  text-align: center;
+}
+
+.message {
+  max-width: 400px;
+  padding: 0.4rem 1rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 150%;
+  position: relative;
+}
+
+.time {
+  padding: 0;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
