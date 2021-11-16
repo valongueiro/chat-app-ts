@@ -1,5 +1,3 @@
-This is a chat app developed as a technical test for a Front-End Engineer (React and TypeScript) position.
-
 ## Getting Started
 
 1. Clone or download this repo
